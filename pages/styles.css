@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-family: "Baloo Tammudu 2";
+}
+
+a{
+  color: #405772;
+  text-decoration: none;
+}
+
+p{
+  font-size: 25px;
+}
+
+.hamburger{
+  display: flex;
+  margin-top: 40px;
+}
+
+.main-container {
+  display: grid;
+  width: 100vw;
+  height: 15vh;
+}
+
+.heading {
+  background-image: url("images/header.jpeg");
+  text-align: center;
+  opacity: 70%;
+}
+
+.text-heading{
+  margin: 18% 0 14% 0;
+  font-size: 70px;
+  color: currentColor;
+}
+.arrow-down{
+  background-image: url("images/down-arrow.png");
+  background-repeat: no-repeat;
+  height: 60px;
+  margin: 0 0 0 47%;
+}
+
+.under-heading {
+  margin: 10% 0 0 15%;
+}
+
+.inputbox {
+  width: 80%;
+  border: black 1px solid;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.inputbox-analysis{
+  width: 80%;
+  font-size: 25px;
+}
+
+.scorecard {
+  margin-top: 20px;
+  font-size: 23px;
+}
+.img-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.button-analysis{
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  margin: 10px 200px;
+}
