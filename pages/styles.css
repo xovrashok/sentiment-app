@@ -48,6 +48,12 @@ p{
   margin: 10% 0 0 15%;
 }
 
+.inputbox-text{
+  width: 80%;
+  font-size: 25px;
+  margin: 0 0 15px;
+}
+
 .inputbox {
   width: 80%;
   border: black 1px solid;
@@ -58,6 +64,7 @@ p{
 .inputbox-analysis{
   width: 80%;
   font-size: 25px;
+  resize : none;
 }
 
 .scorecard {
@@ -77,4 +84,5 @@ p{
   border-radius: 10px;
   background-color: #f8f9fa;
   margin: 10px 200px;
+  font-size: 30px;
 }

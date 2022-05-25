@@ -47,8 +47,10 @@ export default function Home() {
           </a>
         </div>
       <div className="under-heading" id="analysisText">
+        <div className="inputbox-text">
+        <p>Please enter your text in english</p>
+        </div>
         <textarea
-          type="text"
           className="inputbox"
           placeholder="Write/paste any content..."
           onChange={(e) => setContent(e.target.value)}
@@ -60,7 +62,6 @@ export default function Home() {
             Analyse
           </button>
         <textarea
-          type="text"
           className="inputbox-analysis"
           placeholder="Analysis..."
           value={analysis}
